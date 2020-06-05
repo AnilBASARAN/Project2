@@ -1,0 +1,65 @@
+a {
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+    font-size: 1.5em;
+    
+}
+
+
+.max {
+    list-style-type: none;
+    
+}
+
+.nav1 {
+ display: block;
+ margin: 0.35em;
+ padding: 1em;
+ box-shadow: black;
+ background-color: rgb(250, 248, 248);
+
+
+
+}
+body {
+    text-align: center;
+}
+
+.first-par {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+h1 {
+
+    text-align: center;
+}
+.port {
+    width: 90%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+padding-top: 5%;
+padding-bottom: 5%;
+
+    display: block;
+    object-position: center;
+
+}
+
+.section-tag{
+    margin: 0.45em;
+    padding: 0.45em;
+    display: inline-block;
+}
+
+p {
+    line-height: 1.6em;
+    font-size: 1.75em;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(83, 83, 83);
+}
+
+.bottom{
+    margin-bottom: 3em;
+}
