@@ -16,11 +16,16 @@ a {
  display: block;
  margin: 0.35em;
  padding: 1em;
- box-shadow: black;
+ box-shadow: -2px 2px 3px grey;
  background-color: rgb(250, 248, 248);
+ 
 
 }
 
+article {
+    background: radial-gradient(circle,white,lightgrey,transparent 90%);
+
+}
 .first-par {
     font-size: 1.25em;
     line-height: 1.5em;
@@ -54,8 +59,12 @@ p {
     font-weight: 600;
     font-size: 1.39em;
     font-family: 'Roboto', sans-serif;
-    color: rgb(83, 83, 83);
+    
     text-align: center;
+}
+
+.interested-in  {
+    color: rgb(190, 241, 212);
 }
 
 .bottom{
@@ -73,7 +82,7 @@ margin-top: 5em;
 }
 
 .wrapper {
-    min-height: calc(100vh-232px);
+  
     width: 95%;
     text-align: center;
     margin: auto;
@@ -95,24 +104,203 @@ height: 100px;
 
 #contact {
     margin-top: 6em;
+    width: 90%;
 }
 
 .bottom-name {
     float: left;
    margin-left: 5%;
-    width: 45;
     margin-top: 7%;
     margin-bottom: 7%;
+    width: 32%;
 }
 
 .bottom-nav {
 
     float: right;
-    width: 45%;
+    width: 32%;
     margin-right: 5%;
     margin-top: 7%;
     margin-bottom: 7%;
     
 }
+
+
+/* Styles for tablet screen sizes */
+@media screen and (min-width: 768px) {
+    .fix {
+        padding-bottom: 1px;
+        margin-bottom: 1px;
+    }
+    
+    .navigation-bar {
+    
+    
+    }
+    
+    .first-thing {
+    float: right;
+    width: 40%;
+    
+    
+    }
+    
+    .starter-speech {
+    float: left;
+    width: 55%;
+    padding: 1%;
+    display: inline-block;
+    
+    
+    }
+    
+    .starter {
+        background-color: red;
+        box-shadow: saddlebrown;
+        
+    }
+    
+    .marketing-page {
+        float: left;
+        width: 45%;
+        padding: 1%;
+        display: inline-block;
+        
+    
+    }
+    
+    .search-page {
+        float: right;
+        width: 45%;
+        padding: 1%;
+        display: inline-block;
+    
+    }
+    
+    .travel-app {
+        float: left;
+        width: 45%;
+        padding: 1%;
+        display: inline-block;
+    
+    }
+    
+    .map-f-spots {
+        float: right;
+        width: 45%;
+        padding: 1%;
+        display: inline-block;
+    
+    }
+    
+    .photo-gallery {
+        float: right;
+        width: 45%;
+        padding: 1%;
+        display: inline-block;
+    
+    }
+    
+    .calculator {
+        float: left;
+        width: 45%;
+        padding: 1%;
+        display: inline-block;
+    
+    }
+
 }
 
+
+    
+    
+    
+     
+    
+
+    /* Styles for desktop screen sizes */
+    @media screen and (min-width: 1024px) {
+        .fix {
+            padding-bottom: 1px;
+            margin-bottom: 1px;
+    
+        }
+    
+        .navigation-bar {
+    
+    
+        }
+        
+        .first-thing {
+        float: right;
+        width: 45%;
+        
+        
+        }
+        
+        .starter-speech {
+        float: left;
+        width: 45%;
+        padding: 1%;
+        display: inline-block;
+        vertical-align: auto;
+        
+        }
+        
+            
+        
+        
+        .marketing-page {
+            float: left;
+            width: 30%;
+            padding: 1%;
+            display: inline-block;
+            
+        
+        }
+        
+        .search-page {
+            float: right;
+            width: 30%;
+            padding: 1%;
+            display: inline-block;
+        
+        }
+        
+        .travel-app {
+            float: left;
+            width: 30%;
+            padding: 1%;
+            display: inline-block;
+        
+        }
+        
+        .map-f-spots {
+            float: right;
+            width: 30%;
+            padding: 1%;
+            display: inline-block;
+        
+        }
+        
+        .photo-gallery {
+            float: right;
+            width: 30%;
+            padding: 1%;
+            display: inline-block;
+        
+        }
+        
+        .calculator {
+            float: left;
+            width: 30%;
+            padding: 1%;
+            display: inline-block;
+        
+        }
+    
+    
+
+    }
+    
+       

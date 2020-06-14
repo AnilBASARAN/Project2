@@ -1,98 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+ <head>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
+ </head>
+ <body>
   <div class="wrapper">
     <header>
-      <nav>
+      <nav class="navigation-bar">
         <h1>Atlas Basaran</h1>
         
-         <ul class="max">
+        <ul class="max">
           <li><a class="nav1" id="home" href="#">HOME</a></li>
           <li><a class="nav1" href="#portfolio">PORTFOLIO</a></li>
           <li><a class="nav1" href="#contact">CONTACT</a></li>
-         </ul>
+        </ul>
         
-       </nav>
+      </nav>
     </header>
    <main>
-   
-    <article>
-     <img src="images/profile.png">
-     <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put my skills to use!</p>
+    <a class="port" id="portfolio" href="#">PORTFOLIO</a>
+    <div class="fix clearfix">
+      <article> 
+      <img class="first-thing" alt="carismatic figure" src="images/profile.png">
+      <p class="starter-speech">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put my skills to use!</p>
     </article>
+  </div>
     
-    <section>
-     <a class="port" id="portfolio" href="#">PORTFOLIO</a>
-    </section>
-
-    <section class="marketing-page">
-     <img class="port" src="images/portfolio-1.png">   
+    
+    
+    
+    
+    <section class="marketing-page col">
+      <img alt="showing important marketing documents" class="port" src="images/portfolio-1.png">   
      <a class="section-tag" href="#">Marketing Page</a>
      <p>This project shows the front page of a marketing website meant for a specific business that ı'm interested.</p>
     </section>
 
-    <section class="search-page">
-     <img class="port" src="images/portfolio-2.png">
+    
+    
+
+    <section class="search-page col">
+      <img alt="showing also important stuff" class="port" src="images/portfolio-2.png">
      <a class="section-tag" href="#">Search Page</a>
      <p>This project searches through a specific database to find information that the user is trying to look up. </p>
     </section>
 
-    <section class="travel-app">
-     <img class="port" src="images/portfolio-3.png">
+    
+    
+
+    <section class="travel-app col">
+      <img alt="this looks important stuff too" class="port" src="images/portfolio-3.png">
      <a class="section-tag" href="#">Travel App</a>
      <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
     </section>
 
-    <section class="map-f-spots">
-     <img class="port" src="images/portfolio-4.png">
-     <a class="section-tag" href="#">Map of Favourite Spots</a>
+    
+    <section class="map-f-spots col">
+    <img alt="well what can i say" class="port" src="images/portfolio-4.png">
+    <a class="section-tag" href="#">Map of Favourite Spots</a>
      <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it yourself walking tour.</p>
     </section>
 
-    <section class="photo-gallery">
-     <img class="port" src="images/portfolio-5.png"> 
-     <a class="section-tag" href="#">Photo Gallery</a>
+    
+    <section class="photo-gallery col">
+    <img alt="almost done" class="port" src="images/portfolio-5.png"> 
+    <a class="section-tag" href="#">Photo Gallery</a>
      <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
     </section>
 
-    <section class="calculator">
-     <img class="port" src="images/portfolio-6.png">
+    
+    
+    <section class="calculator col">
+    <img alt="its near the end" class="port" src="images/portfolio-6.png">
      <a class="section-tag" href="#">Calculator</a>
-     <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+    <p>Someone can enter the numbers they want , and press the big blue button and get the result.</p>
     </section>
+   
    </main>
 
-  
-  
-  
-  
     <section class="contact">
-   
-        <a class="section-tag" id="contact" href="#">CONTACT</a>
-        <p>If you interested in chatting or want more information abaut what I've working on ,I'd love to hear from you!</p>
+      <a class="section-tag" id="contact" href="#">CONTACT</a>
+      <p class="interested-in">If you interested in chatting or want more information abaut what I've working on ,I'd love to hear from you!</p>
     </section>
-        
   </div>
-   <footer>
-      <address>
+   
+  <footer>
+    <address>
         <p>Phone +1 (111) xxx yy - xxxx</p>
-        <p class="bottom">E mail email@mysite.com</p>
-      </address> 
-      <hr>
-    <div class="bottom clearfix">
-      <div class="bottom-name"><a href="#"><h4>Anıl Basaran</h4></a></div>
-      <div class="bottom-nav"><a href="#top"><h4>BACK TO TOP</h4></a></div>
+        <p>E mail email@mysite.com</p>
+    </address> 
+    <hr>
+    <div class="bottom ">
+        <div class="bottom-name"><a href="#"><h4>Anıl Basaran</h4></a></div>
+        <div class="bottom-nav"><a href="#top"><h4>BACK TO TOP</h4></a></div>
     </div>
-     </footer> 
+  </footer> 
    
     
-</body>
+ </body>
 </html>
