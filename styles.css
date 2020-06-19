@@ -306,6 +306,19 @@ height: 100px;
 /* Styles for desktop screen sizes */
 @media screen and (min-width: 1024px) {
 
+    .max1 {
+display: inline-block;
+
+    }
+
+#at {
+   
+    display: inline;
+    margin-left: 100px;
+}
+.max {
+    float: right;
+}
     #marketingg-page {
         width: 90%;
     }
