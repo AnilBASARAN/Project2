@@ -316,9 +316,11 @@ display: inline-block;
     display: inline;
     margin-left: 100px;
 }
-.max {
-    float: right;
+
+#botnav {
+    float: none;
 }
+.max {float: right;}
     #marketingg-page {
         width: 90%;
     }
