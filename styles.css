@@ -143,7 +143,9 @@ height: 100px;
     width: 90%;
 }
 
-   
+   #go2 {
+       width: 50%;
+   }
 
 .last-nav {
     display: block;
@@ -308,6 +310,10 @@ height: 100px;
 }
 /* Styles for desktop screen sizes */
 @media screen and (min-width: 1024px) {
+
+    #go2 {
+        width: 50%;
+    }
 
     .max1 {
 display: inline-block;
