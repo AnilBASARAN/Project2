@@ -175,7 +175,7 @@ height: 100px;
 .goright {
 
     float: right;
-    width: 50%;
+    
 
 }
 
@@ -301,6 +301,9 @@ height: 100px;
         box-shadow: none;
         background-color: white;
     }
+
+    #botnav {
+        float: none;
 
 }
 /* Styles for desktop screen sizes */
