@@ -1,3 +1,20 @@
+
+* {
+box-sizing: border-box;
+
+}
+
+
+
+.wrapper {
+  
+    width: 95%;
+    text-align: center;
+    margin: auto;
+      
+}
+
+
 a {
     text-decoration: none;
     font-weight: 900;
@@ -13,36 +30,28 @@ a {
 }
 
 .nav1 {
- display: block;
- margin: 0.35em;
- padding: 1em;
- box-shadow: -2px 2px 3px grey;
- background-color: rgb(250, 248, 248);
+    display: block;
+    margin: 0.35em;
+    padding: 1em;
+    box-shadow: -2px 2px 3px grey;
+    background-color: rgb(250, 248, 248);
  
 
 }
 
-article {
-    background: radial-gradient(circle,white,lightgrey,transparent 90%);
-
-}
 .first-par {
     font-size: 1.25em;
     line-height: 1.5em;
 }
 
 .port {
-    width: 90%;
-    
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-
-    display: block;
-    object-position: center;
+     width: 90%; 
+     margin: 0 auto;
+     display: block;
+     object-position: center;
 
 }
+
 
 .section-tag{
     margin-bottom: 0;
@@ -56,6 +65,7 @@ article {
 
 p {
     line-height: 1.25em;
+    margin: 5px;
     font-weight: 600;
     font-size: 1.39em;
     font-family: 'Roboto', sans-serif;
@@ -81,13 +91,7 @@ margin-top: 5em;
 
 }
 
-.wrapper {
-  
-    width: 95%;
-    text-align: center;
-    margin: auto;
-      
-}
+
 .last-line h3 {
     margin: 0px;
 }
@@ -125,45 +129,100 @@ height: 100px;
     
 }
 
+.last-nav {
+    display: none;
+}
 
+.port-solo {
+    margin: 20px;
+    display: block;
+}
 /* Styles for tablet screen sizes */
 @media screen and (min-width: 768px) {
-    .fix {
-        padding-bottom: 1px;
-        margin-bottom: 1px;
+#marketingg-page {
+    width: 90%;
+}
+
+   
+
+.last-nav {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50%;
+    
+
+}
+.bottom {
+    display: none;
+}
+
+.nav2 {
+    font-size: 1em;
+    margin-left: 10%;
+}
+
+#nam {
+    font-size: 1.25em;
+    padding-left: 15%;
+}
+
+.goleft {
+    float: left;
+    width: 30%;
+}
+
+.goright {
+
+    float: right;
+    width: 50%;
+
+}
+
+    .nav1 {
+    
+        margin: 0.35em;
+        padding: 1em;
+    }
+
+
+    
+    #at {
+        display: block;
+        width: 100%;
+    }
+ 
+    .wrapper {
+  
+            width: 97%;
+            text-align: center;
+            margin: auto;
+          
     }
     
-    .navigation-bar {
-    
-    
-    }
-    
+
     .first-thing {
     float: right;
     width: 40%;
-    
-    
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
     }
     
     .starter-speech {
     float: left;
-    width: 55%;
+    width: 45%;
     padding: 1%;
+    padding-top: 5%;
     display: inline-block;
-    
-    
+    padding-left: 5%;
     }
     
-    .starter {
-        background-color: red;
-        box-shadow: saddlebrown;
-        
-    }
     
     .marketing-page {
         float: left;
-        width: 45%;
-        padding: 1%;
+        width: 50%;
+        
         display: inline-block;
         
     
@@ -171,136 +230,177 @@ height: 100px;
     
     .search-page {
         float: right;
-        width: 45%;
-        padding: 1%;
+        width: 50%;
+        
         display: inline-block;
     
     }
     
     .travel-app {
         float: left;
-        width: 45%;
-        padding: 1%;
+        width: 50%;
+        
         display: inline-block;
     
     }
     
     .map-f-spots {
         float: right;
-        width: 45%;
-        padding: 1%;
+        width: 50%;
+        
         display: inline-block;
     
     }
     
     .photo-gallery {
         float: right;
-        width: 45%;
-        padding: 1%;
+        width: 50%;
+        
         display: inline-block;
     
     }
     
     .calculator {
         float: left;
-        width: 45%;
-        padding: 1%;
+        width: 50%;
+        
         display: inline-block;
     
+    }
+    .clearfix {
+        content: '';
+        display: table;
+        clear: both;
+        margin: auto;
+    }
+
+    .nav1 {
+        color: red;
+        display: inline;
+       
+        
+        width: 30%;
+        
+        
+    }
+
+    #portfolio {
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 1px;
+        width: 90%;
+
+    }
+    .max li {
+        display: inline;
+    }
+
+    .nav1 {
+
+        box-shadow: none;
+        background-color: white;
     }
 
 }
+/* Styles for desktop screen sizes */
+@media screen and (min-width: 1024px) {
 
-
-    
-    
-    
+    #marketingg-page {
+        width: 90%;
+    }
      
+    .wrapper {
+        width: 100%;   
+        margin: 0 auto;
     
+       }
 
-    /* Styles for desktop screen sizes */
-    @media screen and (min-width: 1024px) {
-        .fix {
-            padding-bottom: 1px;
-            margin-bottom: 1px;
+   
+
+   
+   
+   
+    .fix {
+        padding-bottom: 1px;
+        margin-bottom: 1px;
+
+
+    }
+
+    .first-thing {
+    float: right;
+    width: 45%;
     
-        }
     
-        .navigation-bar {
+    }
     
-    
-        }
-        
-        .first-thing {
-        float: right;
-        width: 45%;
-        
-        
-        }
-        
-        .starter-speech {
+    .starter-speech {
         float: left;
         width: 45%;
         padding: 1%;
+        padding-top: 12%;
         display: inline-block;
-        vertical-align: auto;
         
-        }
-        
-            
-        
-        
-        .marketing-page {
-            float: left;
-            width: 30%;
-            padding: 1%;
-            display: inline-block;
-            
-        
-        }
-        
-        .search-page {
-            float: right;
-            width: 30%;
-            padding: 1%;
-            display: inline-block;
-        
-        }
-        
-        .travel-app {
-            float: left;
-            width: 30%;
-            padding: 1%;
-            display: inline-block;
-        
-        }
-        
-        .map-f-spots {
-            float: right;
-            width: 30%;
-            padding: 1%;
-            display: inline-block;
-        
-        }
-        
-        .photo-gallery {
-            float: right;
-            width: 30%;
-            padding: 1%;
-            display: inline-block;
-        
-        }
-        
-        .calculator {
-            float: left;
-            width: 30%;
-            padding: 1%;
-            display: inline-block;
-        
-        }
-    
-    
 
+
+
+        }
+    
+        
+    
+    
+    .marketing-page {
+        float: left;
+        width: 33.2%;
+        
+        display: inline-block;
+        
+    
     }
     
-       
+    .search-page {
+        float: right;
+        width: 33.2%;
+        
+        display: inline-block;
+    
+    }
+    
+    .travel-app {
+        float: left;
+        width: 33.2%;
+        
+        display: inline-block;
+    
+    }
+    
+    .map-f-spots {
+        float: right;
+        width: 33.2%;
+        
+        display: inline-block;
+    
+    }
+    
+    .photo-gallery {
+        float: right;
+        width: 33.2%;
+        
+        display: inline-block;
+    
+    }
+    
+    .calculator {
+        float: left;
+        width: 33.2%;
+        
+        display: inline-block;
+    
+    }
+
+   
+
+}
+
+   
