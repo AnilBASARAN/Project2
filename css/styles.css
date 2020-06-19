@@ -161,7 +161,7 @@ height: 100px;
 }
 
    #go2 {
-       width: 50%;
+       width: 70%;
    }
 
 .last-nav {
@@ -329,7 +329,7 @@ height: 100px;
 @media screen and (min-width: 1024px) {
 
     #go2 {
-        width: 50%;
+        width: 70%;
     }
 
     .max1 {
@@ -347,6 +347,8 @@ display: inline-block;
     float: none;
 }
 .max {float: right;}
+
+
     #marketingg-page {
         width: 90%;
     }
