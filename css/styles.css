@@ -38,6 +38,7 @@ a {
 
 .max {
     list-style-type: none;
+    padding: 0%;
     
 }
 
@@ -45,7 +46,7 @@ a {
     display: block;
     margin: 0.35em;
     padding: 1em;
-    box-shadow: -2px 2px 3px grey;
+    
     background-color: rgb(250, 248, 248);
  
 
@@ -152,6 +153,40 @@ height: 100px;
 /* Styles for tablet screen sizes */
 @media screen and (min-width: 768px) {
 
+
+    #at {
+display: block;
+width: 100%;
+margin: auto;
+
+    }
+
+    #mainnav {
+
+        width: 100%;
+        margin: auto;
+    }
+
+
+
+#mainnav li a {
+
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+    #botnav li {
+margin-right: 15px;
+}
+
+#botnav li:last-child {
+    margin-right: 0%;
+}    
+
     .col {
         min-height: 425px;
       }
@@ -178,11 +213,11 @@ height: 100px;
 
 .nav2 {
     font-size: 1em;
-    margin-left: 10%;
+    
 }
 
 #nam {
-    font-size: 1.25em;
+    font-size: 1em;
     padding-left: 15%;
 }
 
@@ -198,18 +233,11 @@ height: 100px;
 
 }
 
-    .nav1 {
-    
-        margin: 0.35em;
-        padding: 1em;
-    }
+  
 
 
     
-    #at {
-        display: block;
-        width: 100%;
-    }
+  
  
     .wrapper {
   
@@ -230,7 +258,7 @@ height: 100px;
     
     .starter-speech {
     float: left;
-    width: 45%;
+    width: 55%;
     padding: 1%;
     padding-top: 5%;
     display: inline-block;
@@ -294,11 +322,11 @@ height: 100px;
     }
 
     .nav1 {
-        color: red;
+        
         display: inline;
        
         
-        width: 30%;
+    
         
         
     }
@@ -322,11 +350,27 @@ height: 100px;
     }
 
     #botnav {
-        float: none;
+        float: right;
+        margin-right: 5%;
 
 }
 /* Styles for desktop screen sizes */
 @media screen and (min-width: 1024px) {
+
+
+    #mainnav {
+
+        width: 60%;
+        margin-top: 1%;
+        padding-left: 5%;
+    }
+
+
+    #at {
+        float: left;
+        width: 40%;
+        
+            }
 
     #go2 {
         width: 70%;
@@ -334,17 +378,15 @@ height: 100px;
 
     .max1 {
 display: inline-block;
+width: 100%;
 
     }
 
-#at {
-   
-    display: inline;
-    margin-left: 100px;
-}
+
 
 #botnav {
-    float: none;
+    float: right;
+    margin-right: 5%;
 }
 .max {float: right;}
 
@@ -380,9 +422,9 @@ display: inline-block;
     
     .starter-speech {
         float: left;
-        width: 45%;
+        width: 54%;
         padding: 1%;
-        padding-top: 12%;
+        padding-top: 5%;
         display: inline-block;
         
 
